@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="150dp">
+    android:layout_height="200dp">
     <RelativeLayout
         android:padding="10dp"
         android:layout_width="match_parent"
@@ -9,8 +10,10 @@
 
         <ImageView
             android:id="@+id/imv_rule"
+            tools:src = "@drawable/suggestion_item_background"
             android:layout_centerVertical="true"
-            android:layout_width="100dp"
+            android:layout_alignParentRight="true"
+            android:layout_width="130dp"
             android:layout_height="match_parent" />
 
 

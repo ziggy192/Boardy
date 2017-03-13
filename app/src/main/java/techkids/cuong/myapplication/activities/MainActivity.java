@@ -91,8 +91,6 @@ public class MainActivity extends AppCompatActivity
 
     private TextView tvMail;
 
-    @BindView(R.id.appbar)
-    AppBarLayout mAppBar;
 
     String mLastQuery = "";
 
@@ -109,36 +107,9 @@ public class MainActivity extends AppCompatActivity
         navigationView.setCheckedItem(R.id.nav_board_game);
 
         floatingSearchView.attachNavigationDrawerToMenuButton(drawerLayout);
-
-        //todo code for not using floatingSerchView
-//        setSupportActionBar(toolbar);
-
-
-//        final DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-//        toggle = new ActionBarDrawerToggle(
-//                this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
-//        toggle.setDrawerIndicatorEnabled(false);
-//        toggle.setHomeAsUpIndicator(R.drawable.ic_toggle);
-//        toggle.setToolbarNavigationClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                drawer.openDrawer(Gravity.LEFT);
-//            }
-//        });
-//        drawer.setDrawerListener(toggle);
-//        toggle.syncState();
-//        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
-//        navigationView.setNavigationItemSelectedListener(this);
-
         setupUI();
         addListener();
 
-        mAppBar.addOnOffsetChangedListener(new AppBarLayout.OnOffsetChangedListener() {
-            @Override
-            public void onOffsetChanged(AppBarLayout appBarLayout, int verticalOffset) {
-                floatingSearchView.setTranslationY(verticalOffset);
-            }
-        });
 
         //todo no need login first
 //        changeFragment(new SignUpFragment(), false);

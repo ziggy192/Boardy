@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_container"
+        android:layout_margin="@dimen/boardgame_catalog_dimen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <LinearLayout
+            android:background="@color/colorWhiteText"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/vtd"
+                android:scaleType="centerCrop"
+                android:id="@+id/iv_boardgame"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"/>
+
+            <LinearLayout
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_name"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryText"
+                        android:layout_width="match_parent"
+                        android:layout_height="35sp"
+                        android:gravity="top|left"
+                        tools:text="Werewofl basic ahih hihih hihihi hihih"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/ic_time"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:id="@+id/tv_playing_time"
+                        android:layout_marginLeft="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="playing time"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5sp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:src="@drawable/people"
+                        android:layout_width="20dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:id="@+id/tv_players"
+                        android:layout_marginLeft="10sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:text="players"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

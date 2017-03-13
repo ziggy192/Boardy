@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BoardDict</string>
+    <string name="action_settings">Thiết lập</string>
+    <string name="answer_from">Được trả lời bởi</string>
+    <string name="categories">Thể loại :</string>
+    <string name="hello_blank_fragment">Chào</string>
+    <string name="min">phút</string>
+    <string name="navigation_drawer_close">đóng navigation drawer</string>
+    <string name="navigation_drawer_open">mở navigation drawer</string>
+    <string name="number_of_players">Số người chơi</string>
+    <string name="play_type">Cách chơi :</string>
+    <string name="playing_time">Thời gian chơi</string>
+    <string name="suggested_player">Số người chơi phù hợp</string>
+</resources>

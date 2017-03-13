@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+
+    <ImageView
+        android:id="@+id/imv_btn_back"
+        android:src="@drawable/ic_navigate_before_black_24px"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:padding="5dp"
+        android:layout_width="40dp"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imv_btn_next"
+        android:src="@drawable/ic_navigate_next_black_24px"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="invisible"
+        tools:visibility="visible"
+        android:padding="5dp"
+        android:layout_width="40dp"
+        android:layout_height="match_parent" />
+    <TextView
+        android:id="@+id/tv_title"
+        tools:text="You've just created your first Android application"
+        android:textSize="16sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/colorPrimaryText"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@id/imv_btn_next"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

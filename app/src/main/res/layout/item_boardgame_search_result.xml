@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/cv_container"
+    android:layout_marginLeft="@dimen/item_small_margin_vertical"
+    android:layout_marginRight="@dimen/item_small_margin_vertical"
+    android:layout_marginBottom="@dimen/item_small_margin_vertical"
+    android:foreground="?android:attr/selectableItemBackground"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+        <ImageView
+            android:id="@+id/iv_boardgame"
+            android:src="@drawable/default_placeholder"
+            android:scaleType="centerCrop"
+            android:layout_width="90dp"
+            android:layout_height="match_parent" />
+        <RelativeLayout
+            android:layout_toRightOf="@id/iv_boardgame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/tv_title"
+                tools:text="Werewolf basic advance man and man and mand"
+                android:textSize="20sp"
+                android:textColor="@color/colorPrimaryText"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="25sp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
+                android:gravity="center_vertical"/>
+            <TextView
+                android:id="@+id/tv_description"
+                android:layout_below="@id/tv_title"
+                tools:text="Maniac Co."
+                android:textSize="14sp"
+                android:textColor="@color/colorSecondaryText"
+                android:layout_width="match_parent"
+                android:layout_height="16sp" />
+            <RelativeLayout
+                android:gravity="start|bottom"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="25dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_playing_time"
+                    android:layout_alignParentRight="true"
+
+                    android:orientation="horizontal"
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/ic_time"
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:gravity="center_vertical|start"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/tv_playing_time"
+                        android:layout_marginLeft="5sp"
+                        android:textSize="14sp"
+                        android:textColor="@color/colorSecondaryText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="16sp"
+                        tools:text="45-60"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/ll_players"
+                    android:layout_toLeftOf="@id/ll_playing_time"
+                    android:orientation="horizontal"
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:src="@drawable/people"
+                        android:layout_width="25dp"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:gravity="center_vertical|start"
+                        android:layout_gravity="center_vertical"
+                        android:id="@+id/tv_players"
+                        android:textColor="@color/colorSecondaryText"
+                        android:layout_marginLeft="5sp"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="16sp"
+                        tools:text="10-20"/>
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

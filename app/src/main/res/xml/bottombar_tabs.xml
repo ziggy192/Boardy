@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/tab_information"
+        icon="@drawable/icon"
+        title="Information"
+        barColorWhenSelected="@color/colorPrimaryDark"/>
+    <tab
+        id="@+id/tab_rules"
+        icon="@drawable/rules"
+        title="Rules"
+        barColorWhenSelected="@color/colorPrimaryDark"/>
+    <tab
+        id="@+id/tab_question"
+        icon="@drawable/question"
+        title="Q&amp;A"
+        barColorWhenSelected="@color/colorPrimaryDark"/>
+</tabs>

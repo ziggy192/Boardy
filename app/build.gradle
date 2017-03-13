@@ -1,0 +1,61 @@
+apply plugin: 'com.android.application'
+apply plugin: 'realm-android'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "techkids.cuong.myapplication"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+
+
+
+
+
+
+
+    compile 'com.android.support:support-v4:25.1.0'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.android.support:cardview-v7:25.1.0'
+    compile 'com.miguelcatalan:materialsearchview:1.4.0'
+    compile 'com.roughike:bottom-bar:2.0.2'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'us.feras.mdv:markdownview:1.1.0'
+    compile 'com.facebook.android:facebook-android-sdk:[4,5)'
+    compile 'com.github.arimorty:floatingsearchview:2.0.3'
+    compile 'com.github.barteksc:android-pdf-viewer:2.4.0'
+    compile 'org.androidannotations:androidannotations-api:4.0.0'
+    compile 'org.parceler:parceler-api:1.1.6'
+    compile 'com.itextpdf:itextg:5.5.10'
+    compile 'com.github.johnkil.android-progressfragment:progressfragment:1.4.+'
+
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'org.parceler:parceler:1.1.6'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+    provided 'org.androidannotations:androidannotations:4.0.0'
+}

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Boardy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="min">min</string>
+    <string name="number_of_players">Number of players</string>
+    <string name="suggested_player">Suggested player</string>
+    <string name="playing_time">Playing time</string>
+    <string name="categories">Categories :</string>
+    <string name="play_type">Play type :</string>
+    <string name="action_settings">Settings</string>
+    <string name="q_a">Q&amp;A</string>
+    <string name="random_string">asfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdfasfsdfsffasdf asfsdfsffasdf asfsdfsffasdf asfsdfsffasdf</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="answer_from">Answer from</string>
+    <string name="title_activity_board_game_detail">BoardGameDetailActivity</string>
+    <string name="facebook_app_id">1928391744047702</string>
+    <string name="fb_login_protocol_scheme">fb1928391744047702</string>
+    <string name="title_activity_rule"></string>
+    <string name="toast_pick_file_error">Unable to pick file. Check status of file manager.</string>
+    <string name="action_bookmarks">Content Menu</string>
+    <string name="error_loading_file">Error loading file :(</string>
+    <string name="nothing_found">nothing found</string>
+</resources>

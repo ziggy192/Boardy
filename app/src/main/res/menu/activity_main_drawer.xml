@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_board_game"
+            android:icon="@drawable/ic_chess_horse"
+            android:title="All games" />
+        <item
+            android:id="@+id/nav_strategy"
+            android:icon="@drawable/ic_browser"
+            android:title="Strategy games" />
+        <item
+            android:id="@+id/nav_family"
+            android:icon="@drawable/ic_family_silhouette"
+            android:title="For family" />
+        <item
+            android:id="@+id/nav_hot"
+            android:icon="@drawable/ic_alarm"
+            android:title="Hot games" />
+        <item
+            android:id="@+id/nav_coming_soon"
+            android:icon="@drawable/ic_traffic_cone_signal_tool_for_traffic"
+            android:title="Comming soon" />
+    </group>
+
+    <item android:title="Help &amp; Feedback">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_setting"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about_us"
+                android:icon="@drawable/ic_user_silhouette"
+                android:title="About us" />
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_exit_to_app_button"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+</menu>

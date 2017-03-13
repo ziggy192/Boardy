@@ -1,0 +1,342 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fl_container"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.BoardGameInformationFragment">
+
+
+
+            <!--
+            iv_boardgame
+            tv_name
+            tv_number_of_player_title
+            tv_number_of_player
+            tv_suggested_player_title
+            tv_suggested_player
+            tv_categories_title
+            tv_categories
+            tv_play_type_title
+            tv_play_type
+            -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                    <!--<ImageView-->
+                    <!--android:src="@drawable/vtd"-->
+                    <!--android:id="@+id/iv_boardgame"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:adjustViewBounds="true"/>-->
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/iv_boardgame"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/vtd" />
+
+                        <LinearLayout
+                            android:paddingTop="20dp"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+
+
+                            <TextView
+                                android:id="@+id/tv_name"
+                                android:layout_marginLeft="10dp"
+                                android:layout_alignBottom="@id/iv_boardgame"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Werewolf"
+                                android:textSize="34sp"
+                                android:textColor="@color/colorPrimaryText"
+                                android:textStyle="bold"/>
+
+                            <LinearLayout
+                                android:layout_marginTop="20dp"
+                                android:orientation="horizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:layout_marginLeft="10dp"
+                                    android:orientation="vertical"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1">
+
+                                    <LinearLayout
+                                        android:orientation="horizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content">
+                                        <ImageView
+                                            android:layout_width="30dp"
+                                            android:layout_height="30dp"
+                                            android:src="@drawable/people"/>
+
+                                        <TextView
+                                            android:textStyle="bold"
+                                            android:layout_marginLeft="5sp"
+                                            android:textSize="20sp"
+                                            android:textColor="@color/colorPrimaryText"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="30dp"
+                                            android:id="@+id/tv_number_of_player"
+                                            android:text="6-15 players"
+                                            android:gravity="center_vertical"/>
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:id="@+id/tv_suggested_player"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:textColor="@color/colorSecondaryText"
+                                        android:text="Suggested: 10 players"/>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_weight="1"
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:src="@drawable/ic_time"/>
+
+                                    <TextView
+                                        android:textStyle="bold"
+                                        android:textSize="20sp"
+                                        android:id="@+id/tv_playing_time"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="30dp"
+                                        android:gravity="center_vertical"
+                                        android:layout_marginLeft="5dp"
+                                        android:text="15-30 mins"
+                                        android:textColor="@color/colorPrimaryText"
+                                        />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorSecondaryText"/>
+
+                            <LinearLayout
+                                android:paddingLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:src="@drawable/ic_description"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_marginRight="5dp"/>
+
+                                    <TextView
+                                        android:layout_gravity="center_vertical"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/colorPrimaryText"
+                                        android:textSize="20sp"
+                                        android:text="Description"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:text="sssssssssssssssssss"
+                                    android:layout_marginTop="10dp"
+                                    android:lineSpacingExtra="4sp"
+                                    android:textSize="14sp"
+                                    android:textColor="@color/colorPrimaryText"
+                                    android:id="@+id/tv_description"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" />
+
+                            </LinearLayout>
+
+
+                            <View
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorSecondaryText"/>
+
+                            <LinearLayout
+                                android:paddingLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:src="@drawable/ic_settings"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_marginRight="5dp"/>
+
+                                    <TextView
+                                        android:layout_gravity="center_vertical"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/colorPrimaryText"
+                                        android:textSize="20sp"
+                                        android:text="Publisher"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <TextView
+                                        android:gravity="center_vertical"
+                                        android:text="sssssssssssssssssssssssss"
+                                        android:textColor="@color/colorPrimaryText"
+                                        android:textSize="14sp"
+                                        android:id="@+id/tv_publisher"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent" />
+
+                                    <ImageView
+                                        android:id="@+id/iv_publisher"
+                                        android:layout_marginLeft="20dp"
+                                        android:src="@drawable/category"
+                                        android:adjustViewBounds="true"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorSecondaryText"/>
+
+                            <LinearLayout
+                                android:paddingLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:src="@drawable/ic_categories"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_marginRight="5dp"/>
+
+                                    <TextView
+                                        android:layout_gravity="center_vertical"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/colorPrimaryText"
+                                        android:textSize="20sp"
+                                        android:text="Categories"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/rv_categories">
+                                </android.support.v7.widget.RecyclerView>
+
+                            </LinearLayout>
+
+                            <View
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginBottom="20dp"
+                                android:layout_width="match_parent"
+                                android:layout_height="1dp"
+                                android:background="@color/colorSecondaryText"/>
+
+                            <LinearLayout
+                                android:paddingLeft="10dp"
+                                android:orientation="vertical"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:orientation="horizontal"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content">
+
+                                    <ImageView
+                                        android:src="@drawable/ic_key_logic"
+                                        android:layout_width="30dp"
+                                        android:layout_height="30dp"
+                                        android:layout_marginRight="5dp"/>
+
+                                    <TextView
+                                        android:layout_gravity="center_vertical"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/colorPrimaryText"
+                                        android:textSize="20sp"
+                                        android:text="Mechanisms"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content" />
+                                </LinearLayout>
+
+                                <android.support.v7.widget.RecyclerView
+                                    android:layout_marginTop="10dp"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:id="@+id/rv_play_type">
+                                </android.support.v7.widget.RecyclerView>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+</FrameLayout>
